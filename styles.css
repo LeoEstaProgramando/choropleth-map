@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.main {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  font-family: 'Roboto';
+  padding: 20px;
+  margin: auto;
+}
+.main #title {
+  text-align: center;
+  font-size: 2em;
+}
+.main #description {
+  text-align: center;
+  font-size: 1em;
+  font-weight: normal;
+}
+.main #canvas {
+  margin: auto;
+}
+.main #source {
+  font-size: 0.75em;
+  margin: 1em 0;
+}
+.tooltip {
+  position: absolute;
+  padding: 10px;
+  font: 12px Arial;
+  background: rgba(255, 255, 204, 0.9);
+  box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.6);
+  border: 0px;
+  border-radius: 2px;
+  pointer-events: none;
+  opacity: 0;
+}
+.counties {
+  fill: none;
+}
+
+.states {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
